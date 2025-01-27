@@ -3,8 +3,12 @@ numpy
 seaborn
 matplotlib
 scikit-learn
-xgboost
+
+xgboosts
+
+Flask
+
 
 dill
 
-#-e .
+#-e .ss

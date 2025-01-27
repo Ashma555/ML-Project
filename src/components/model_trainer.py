@@ -1,5 +1,6 @@
 import os
 import sys
+
 from dataclasses import dataclass
 
 
@@ -12,6 +13,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
+
+
+
+
 
 
 
@@ -89,7 +94,7 @@ class ModelTrainer:
             
                      
             ## To get best model score from dict
-            best_model_score = max(sorted(model_report.values()))
+            best_model_score = max(sorted(model_report.values())) 
 
             ## To get best model name from dict
 
